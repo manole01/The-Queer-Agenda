@@ -1,0 +1,19 @@
+{
+  "author": "Manuel McCarthy Valderrama",
+  "description": "Enforces the queer agenda by killing gender on the web. Eliminates the A and the O from every word, thus erasing gender in the language",
+  "manifest_version": 2,
+  "name": "The Queer Agenda",
+  "version": "1.0.0",
+  "icons": {
+      "128": "images/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+         "<all_urls>"
+      ],
+      "js": ["p5.dom.js", "p5.js", "sketch.js"]
+
+    }
+  ]
+}
